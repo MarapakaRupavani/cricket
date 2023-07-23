@@ -6,15 +6,18 @@ POST http://localhost:3000/players/
 Content-Type: application/json
 
 {
-  "playerId": 1,
-  "playerName": "Lakshman",
-  "jerseyNumber": 5,
-  "role": "All-rounder"
+  "playerName": "Vishal",
+  "jerseyNumber": 17,
+  "role": "Bowler"
 }
 
 ###
 
-POST http://localhost:3000/players/2/
+GET http://localhost:3000/players/2/
+
+###
+
+PUT http://localhost:3000/players/2/
 Content-Type: application/json 
 
 {
